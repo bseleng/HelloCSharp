@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string firstName = "Bob";
-int unreadMessagesCount = 3;
-decimal temperature = 34.4m;
+string firstName = "Bogdan";
+string greeting = "Hello";
 
-Console.WriteLine($"Hello, {firstName}! You have {unreadMessagesCount} in your inbox. The temperature is {temperature} celsius.");
+Console.WriteLine(greeting + ", " + firstName + "!");
 
