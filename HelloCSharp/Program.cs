@@ -1,6 +1,4 @@
 ﻿// See https://aka.ms/new-console-template for more information
-string firstName = "Bogdan";
-string greeting = "Hello";
-
-Console.WriteLine(greeting + ", " + firstName + "!");
+string projectName = "First-Project";
+Console.WriteLine($@"Path: {"\t|\t"} C:\Output\{projectName}\Data");
 
