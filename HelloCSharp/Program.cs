@@ -1,7 +1,5 @@
-﻿int fahrenheit = 94;
-//do not forget m for decimals! and put decimals when dividing!
-decimal celcius = (fahrenheit - 32) * (5.0m / 9.0m);
+﻿int firstValue = 500;
+int secondValue = 600;
+int largerValue = Math.Max(firstValue, secondValue);
 
-Console.WriteLine($"The temperature is {celcius} Celsius.");
-
-
+Console.WriteLine(largerValue);
