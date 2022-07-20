@@ -20,12 +20,12 @@ else if (roll1 == roll2 || roll2 == roll3 || roll1 == roll3)
 }
 
 Console.WriteLine($"Updated total: {total}");
-if (total > 14)
+if (total <= 15)
 {
     Console.WriteLine("You win!");
 }
-
-if (total < 15)
+else
 {
     Console.WriteLine("Sorry, you lose.");
+
 }
