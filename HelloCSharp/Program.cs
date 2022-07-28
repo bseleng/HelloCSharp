@@ -1,18 +1,5 @@
-﻿string[] fakeOrderIds = {
-"B123",
-"C234",
-"A345",
-"C15",
-"B177",
-"G3003",
-"C235",
-"B179",
-};
+﻿Random coinFlip = new Random();
+int coinSide = coinFlip.Next(0, 2);
 
-foreach (string fakeOrderId in fakeOrderIds)
-{
-    if (fakeOrderId.StartsWith("B"))
-    {
-        Console.WriteLine(fakeOrderId);
-    }
-}
+Console.WriteLine($"{((coinSide == 0) ? "tails" : "heads")}\r\nrandom value:{coinSide}");
+
